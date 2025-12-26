@@ -9,10 +9,19 @@ This project implements and compares three different deep learning architectures
 - **`CNN_and_CNN_LSTM.ipynb`**: Jupyter notebook used for training and evaluating the Simple CNN and CNN-LSTM models.
 - **`vit-freeze.ipynb`**: Jupyter notebook used for training and evaluating the Vision Transformer (ViT) model (using transfer learning).
 - **`requirements.txt`**: List of Python dependencies required to run the project.
-- **Model Weights** (files expected in the root directory):
-  - `model.pth`: Trained weights for the Simple CNN model.
-  - `best_cnn_lstm_model.pth`: Trained weights for the CNN-LSTM model.
-  - `natural_images_vit.pth`: Trained weights for the ViT model.
+- **Model Weights**:
+
+  > ⚠️ **IMPORTANT**: The model files are too large for GitHub. You must download them manually.
+
+  1.  **[CLICK HERE TO DOWNLOAD MODELS](https://drive.google.com/drive/folders/1b9kD0mmiJQpZm0mCQZvKKtGOsj_l3D1X?usp=sharing)**
+  2.  Download all `.pth` files.
+  3.  Place them in the **root directory** of this project (the same folder as `app.py`).
+
+  **Expected files:**
+
+  - `model.pth`
+  - `best_cnn_lstm_model.pth`
+  - `natural_images_vit.pth`
 
 ## 🚀 Installation
 
